@@ -1,0 +1,8 @@
+{ = abc 123}
+
+{ = c 1 }
+{ = fac 1 }
+{ loop abc
+    {   = fac { * fac c } }
+    {   = c {+c1} }
+} {pr fac}
